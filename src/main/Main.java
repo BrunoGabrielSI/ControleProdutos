@@ -1,6 +1,6 @@
 package main;
 
-import Controle.ControleProdutos;
+import controle.ControleProdutos;
 import produtos.Eletronico;
 
 public class Main {
