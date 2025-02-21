@@ -12,6 +12,6 @@ public abstract class Produto {
     }
 
     public String obterDados(){
-        return String.format("ID: %d | Nome: %s | Preço Original: %f", this.id, this.nome, this.preco);
+        return String.format("ID: %d | Nome: %s | Preço Original: %.2f", this.id, this.nome, this.preco);
     }
 }
